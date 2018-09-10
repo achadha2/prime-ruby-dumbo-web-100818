@@ -2,7 +2,7 @@
   
 def prime?(n)
    if n == 2
-      return True
+      puts "happy"
     elsif n == 3
         return True
     elsif n % 2 == 0
@@ -25,3 +25,5 @@ def prime?(n)
 end
 end
 end
+
+prime?(2)
